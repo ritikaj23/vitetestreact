@@ -8,7 +8,13 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='App'>
+      <BrowserRouter>
+          <Navbar/>
+              <Routes>
+              <Route path='/' element={<Landing_Page/>}></Route>
+              </Routes>
+     </BrowserRouter>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
