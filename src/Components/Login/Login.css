@@ -77,7 +77,11 @@ body {
     margin-top: 15px;
   
   }
-  
+
+.login_container{
+    background-color: lightcoral;
+}
+
   @media screen and (max-width: 600px) {
     /* Adjust styling for smaller screens if needed */
   }
